@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Papa's Deli</title>
+    <link href="../static/css/style.css" rel="stylesheet">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&family=Orelega+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="nav">
+        <img src="../static/images/logo.png" alt="logo">
+        <h1>Papa's Deli</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#trays">Trays</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div id="home">
+            <h1>Welcome to Papa's Deli</h1>
+            <p>Home of the best sandwiches in Santa Clarita Valley!</p>
+            <img src="../static/images/hero.jpg" alt="hero" id="hero">
+            <ul id="storeInfo">
+                <li>Monday - Saturday: 10:00AM - 6:00PM</li>
+                <li>Sunday: 10:00AM - 4:00PM</li>
+                <li><span style="font-style: italic;">*Holidays may affect our hours*</span></li>
+                <li>Phone: (661) 430-8440</li>
+                <li>28028 Seco Canyon Rd, Santa Clarita, CA, 91390</li>
+                <li> <a href="https://instagram.com/papasdeli.sc?igshid=OGQ5Zdc2ODk2ZA==">Follow us on Instagram!</a></li>
+            </ul>
+            <!--img scroll thing here-->
+        </div>
+        <div id="menu">
+            <div id="menuHeader">
+                <h1>Menu</h1>
+                <p>Our sandwiches are made with the freshest ingredients and are made to order.
+                Order ahead and save time! Call us to start your order! (661) 430-8440</p>
+                <!--img scroll-->
+            </div>
+            <div id="mostPopular">
+                <div class="sectionHeader">
+                    <h1>Most Popular</h1>
+                    <p>Our Fan Favorites!</p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>Roasted Turkey Avocado</h2>
+                        <p>$12.99</p>
+                    </div>  
+                    <p>Turkey, Bacon, Avocado, Spinach, Pepper Jack Cheese, and Sun-Dried Tomato Aioli</p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>Chicken Goat Cheese Arugula</h2>
+                        <p>$12.99</p>
+                    </div>
+                    <p>
+                        Chicken Breast, Goat Cheese, 
+                        Arugula, Sun-Dried Tomato Aioli, 
+                        and Sun-Dried Tomato
+                    </p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>Italian Combo (Our Most Popular)</h2>
+                        <p>$12.99</p>
+                    </div>
+                    <p>
+                        Cotto Salami, Spicy Capicola Ham, Genoa Salami, 
+                        Provolone Cheese, Mayo, Lettuce, Tomatoes
+                        , Onions, Pepperoncini, Pickles, Black Olives, 
+                        and Italian Dressing
+                    </p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>Pastrami Reuben</h2>
+                        <p>$12.99</p>
+                    </div>
+                    <p>Pastrami, Swiss Cheese, Coleslaw, Thousand Island Dressing, and Sauerkraut</p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>The Y.E.L.P Sandwich</h2>
+                        <p>$12.99</p>
+                    </div>
+                    <p>Cracked Pepper Turkey, Pepper Jack Cheese, Bacon, 
+                        Mayo, Lettuce, Arugula, Tomato, Onions, and Sun-Dried Tomato Aioli</p>
+                </div>
+                <div class="sandwich">
+                    <div class="sandwichNameandPrice">
+                        <h2>The Cabana Club</h2>
+                        <p>$12.99</p>
+                    </div>
+                    <p>Oven Roasted Turkey, Bacon, Smoked Ham, Muenster Cheese, Lettuce, Tomatoes, Mayo, and Avocado</p>
+                </div>
+            </div>
+        </div>
+        <div id="fullMenu">
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Specials</h1>
+                    <p>Our signature sandwiches come as we make them with your choice of bread!</p>
+                </div>
+                <div class="sectionContent">
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>1. Papa's Ham Slam</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Smoked Home, Bacon, Swiss Cheese, Spinach, Banana Peppers, and Dijon Mustard</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>2. Roasted Turkey Avocado</h2>
+                            <p>$12.99</p>
+                        </div>  
+                        <p>Turkey, Bacon, Avocado, Spinach, Pepper Jack Cheese, and Sun-Dried Tomato Aioli</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>3. Chicken Goat Cheese Arugula</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Chicken Breast, Goat Cheese, Arugula, Sun-Dried 
+                            Tomato Aioli, and Sun-Dried Tomato</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>4. The New Yorker</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Genoa Salami, Prosciutto, Fresh Mozzarella, Arugula, 
+                            Olive Oil, Roasted Red Peppers, Black Olives,
+                            and Pepperoncini
+                        </p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>5. Monte Cristo</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Turkey, Cranberry, Jelly, Arugula, Cheddar Cheese, and Swiss Cheese</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>6. Corned Beef Reuben</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Corned Beef, Swiss Cheese, Coleslaw, Thousand Island Dressing, and Sauerkraut</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>7. Roast Beef Reuben</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Roast Beef, Swiss Cheese, Coleslaw, and Thousand Island Dressing</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>8. Italian Combo</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Cotto Salami, Spicy Capicola Ham, Genoa Salami, Provolone Cheese, Mayo, Lettuce, Tomatoes
+                            , Onions, Pepperoncini, Pickles, Black Olives, and Italian Dressing</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>9. Pastrami Reuben</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Pastrami, Swiss Cheese, Coleslaw, Thousand Island Dressing, and Sauerkraut</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>10. The Y.E.L.P Sandwich</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Cracked Pepper Turkey, Pepper Jack Cheese, Bacon, 
+                            Mayo, Lettuce, Arugula, Tomato, Onions, and Sun-Dried Tomato Aioli</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>11. The Cabana Club</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Oven Roasted Turkey, Bacon, Smoked Ham, 
+                            Muenster Cheese, Lettuce, Tomatoes, Mayo, and Avocado</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>12. Turkey Reuben</h2>
+                            <p>$12.99</p>
+                        </div>
+                        <p>Oven Roasted Turkey, Swiss Cheese, Coleslaw, 
+                            Thousand Island Dressing, and Sauerkraut</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Wraps</h1>
+                    <p>Our specialty wraps come as we make them 
+                        with your choice Spinach or Wheat Wrap</p>
+                </div>
+                <div class="sectionContent">
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>13. Wild Buffalo Chicken Wrap</h2>
+                            <p>$11.99</p>
+                        </div>
+                        <p>Chicken Breast, Shredded Cheddar Cheese, Lettuce, 
+                            Shredded Carrots, Tomatoes, Ranch Dressing, and Buffalo Sauce</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>14. Chicken Caesar Wrap</h2>
+                            <p>$11.99</p>
+                        </div>
+                        <p>Chicken Breast, Parmesan Cheese, Cucumber, 
+                            Onion, Lettuce, Croutons, and Caesar Dressing</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>15. Chicken Salad Wrap</h2>
+                            <p>$10.99</p>
+                        </div>
+                        <p>Chicken Salad, Lettuce, Tomato, and Onion</p>
+                    </div>
+                    <div class="sandwich">
+                        <div class="sandwichNameandPrice">
+                            <h2>16. Tuna Salad Wrap</h2>
+                            <p>$9.99</p>
+                        </div>
+                        <p>Tuna Salad, Lettuce, Tomato, and Onion</p>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Classics</h1>
+                    <h3>Build Your Own Sandwich!</h3>
+                    <p>Choose your protein, bread, spreads, cheeses, 
+                        toppings, and whether you'd like it hot or cold!</p>
+                    <div id="tableName">
+                        <h3>Your Choice of Ingredients</h3>
+                        <table id="ingredients">
+                            <tr>
+                                <th>Breads</th>
+                                <th>Spreads</th>
+                                <th>Cheeses</th>
+                                <th>Toppings</th>
+                                <th>+$2 Add-Ons</th>
+                                <th>+$3 Add-Ons</th>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Sub Rolls<br>(White or Wheat)</td>
+                                <td>Chipotle</td>
+                                <td>White</td>
+                                <td>Lettuce</td>
+                                <td>Extra Cheese</td>
+                                <td>Bacon</td>
+                            </tr>
+                            <tr>
+                                <td>Mayo</td>
+                                <td >Yellow</td>
+                                <td>Spinach</td>
+                                <td>Extra Veggies</td>
+                                <td>Avocado</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="2">Sliced Bread<br><span>(Sourdough, Rye, White, or Wheat)</span></td>
+                                <td>Spicy Mayo</td>
+                                <td>Sharp Cheddar</td>
+                                <td>Arugula</td>
+                                <td>Roasted Red Peppers</td>
+                                <td>Mozzarella Cheese</td>
+                            </tr>
+                            <tr>
+                                <td>Yellow Mustard</td>
+                                <td>Provolone</td>
+                                <td>Onions</td>
+                                <td>Extra Meat</td>
+                                <td>Goat Cheese</td>
+                            </tr>
+                            <tr>
+                                <td>Ciabatta</td>
+                                <td>Mustard</td>
+                                <td>Pepper Jack</td>
+                                <td>Tomatoes</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Basil Pesto Aioli</td>
+                                <td>Swiss</td>
+                                <td>Cucumber</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Sun-Dried Tomato Aioli</td>
+                                <td>Muenster</td>
+                                <td>Pepperoncini</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Ranch Dressing</td>
+                                <td>Havarti</td>
+                                <td>Pickles</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Thousand Island Dressing</td>
+                                <td></td>
+                                <td>Black Olives</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>Shredded Carrots</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="sectionContent">
+                    <div class="menuLists">
+                        <ul class="menuList">
+                            <li>18. Pastrami - $11.99</li>
+                            <li>19. Roast Beef - $11.99</li>
+                            <li>20. Corned Beef - $11.99</li>
+                            <li>21. Geneo Salami - $11.99</li>
+                            <li>22. Cotto Salami - $10.99</li>
+                            <li>23. Dry Salami - $10.99</li>
+                            <li>24. Oven Roasted Turkey - $10.99</li>
+                            <li>25. Honey Turkey - $10.99</li>
+                            <li>26. Cracked Pepper Turkey - $10.99</li>
+                            <li>27. Smoked Ham - $10.99</li>
+                        </ul>
+                        <ul class="menuList">
+                            <li>28. Honey Ham - $10.99</li>
+                            <li>29. Spicy Capicola - $10.99</li>
+                            <li>30. Chicken Breast - $10.99</li>
+                            <li>31. Mortadella - $9.99</li>
+                            <li>32. Pepperoni - $10.99</li>
+                            <li>33. Prosciutto - $15.99</li>
+                            <li>34. Tuna Salad (Make It A Melt! +$1) - $10.99</li>
+                            <li>35. Chicken Salad - $10.99 </li>
+                            <li>36. BLT (Comes w/ Mayo) - $9.99</li>
+                            <li>37. Grilled Cheese (Your Choice of Cheese) - $7.99</li>
+                            <li>38. Veggie Delight (Your Choice of Veggies) - $8.99</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Meat By The Pound</h1>
+                    <p>Get Your Favorite Meats By The Pound!</p>
+                </div>
+                <div class="sectionContent">
+                    <div class="menuLists">
+                        <ul class="menuList">
+                            <li>39. Roast Beef - $ 12.99</li>
+                            <li>40. Corned Beef - $12.99</li>
+                            <li>41. Pastrami - $12.99</li>
+                            <li>42. Dry Salami - $12.99</li>
+                            <li>43. Geneo Salami - $9.00</li>
+                            <li>44. Cotto Salami - $8.00</li>
+                            <li>45. Smoked Ham - $9.00</li>
+                            <li>46. Honey Ham - $9.00</li>
+                        </ul>
+                        <ul class="menuList">
+                            <li>47. Spicy Capicola- $10</li>
+                            <li>48. Oven Roasted Turkey - $10.00</li>
+                            <li>49. Honey Turkey - $10.00</li>
+                            <li>50. Cracked Pepper Turkey - $10.00</li>
+                            <li>51. Chicken Breast - $10.00</li>
+                            <li>52. Mortadella - $9.00</li>
+                            <li>53. Pepperoni - $9.00</li>
+                            <li>54. Prosciutto - $15.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Cheese By The Pound</h1>
+                    <p>Get Your Favorite Cheeses By The Pound!</p>
+                </div>
+                <div class="sectionContent">
+                    <div class="menuLists">
+                        <ul class="menuList">
+                            <li>55. American Yellow - $6.00</li>
+                            <li>56. American White - $6.00</li>
+                            <li>57. Sharp Cheddar - $10.00</li>
+                            <li>58. Muenster - $9.00</li>
+                        </ul>
+                        <ul class="menuList">
+                            <li>59. Pepper Jack - $10.00</li>
+                            <li>60. Provolone - $8.00</li>
+                            <li>61. Swiss - $9.00</li>
+                            <li>62. Havarti - $10.00</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="menuSection">
+                <div class="sectionHeader">
+                    <h1>Papa's Salads</h1>
+                    <p>Salads Are Made Fresh To Order</p>
+                </div>
+                <div class="sectionContent">
+                    <div class="menuLists">
+                        <ul class="menuList">
+                            <li>63. Potato Salad - $4.00</li>
+                            <li>64. Macaroni Salad - $4.00</li>
+                            <li>65. Coleslaw - $4.00</li>
+                            <li>66. Chicken Salad - $6.00</li>
+                        </ul>
+                        <ul class="menuList">
+                            <li>67. Tuna Salad - $6.00</li>
+                            <li>68. Caprese Salad - $6.00</li>
+                            <li>69. Fresh Garden Salad - $8.99</li>
+                            <li>70. Fresh Garden Salad w/ Meat - $11.99</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = "menuSection">
+            <div class="sectionHeader">
+                <h1>Papa's Trays</h1>
+                <p>Trays Are Made Fresh To Order.<br>
+                    Trays must be ordered at least 48 hours in advance.
+                </p>
+            </div>
+            <div class="sectionContent">
+                <table id="trays">
+                    <tr>
+                        <th>Classic Trays</th>
+                        <th>Special Trays</th>
+                        <th>Wine Trays</th>
+                    </tr>
+                    <tr>
+                        <td>71. Small Tray - $69.99</td>
+                        <td>73. Small Tray - $79.99</td>
+                        <td>75. Small Tray - $59.99</td>
+                    </tr>
+                    <tr>
+                        <td>72. Large Tray - $89.99</td>
+                        <td>74. Large Tray - $99.99</td>
+                        <td>76. Large Tray - $79.99</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="trayOrder">
+                <h2>You can order right here on our embedded form!<br>
+                    Or follow the link below to be redirected to our order form!</h2>
+                <a href="https://forms.gle/ikHWDxb9S29TLMtY9">Click Here to get your Tray Started!</a>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfPUj93k6bC_iGdtkhdGd8eSIwTW034HyWLFEdcP8rPWokACQ/viewform?embedded=true" 
+                width="100%" height="1700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
